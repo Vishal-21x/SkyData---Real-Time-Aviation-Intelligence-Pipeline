@@ -6,7 +6,7 @@
 
 ## 🏗️ Architecture (Production-Grade)
 
-![Architecture](<img width="1536" height="1024" alt="Architecture" src="https://github.com/user-attachments/assets/dc8e124b-ab33-4c0e-819a-826ccea37d9b" />)
+![Architecture](./ARCHITECTURE/Architecture.png)
 
 ```
 OpenSky API (15k records/call)
