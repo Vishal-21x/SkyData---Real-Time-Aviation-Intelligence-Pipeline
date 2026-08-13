@@ -1,0 +1,532 @@
+[2026-04-26T19:15:15.881+0000] {processor.py:161} INFO - Started process (PID=25) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:15:15.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:15:15.920+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:15:15.900+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:15:16.180+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:15:16.140+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:15:16.186+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:15:16.860+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 1.181 seconds
+[2026-04-26T19:15:47.165+0000] {processor.py:161} INFO - Started process (PID=26) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:15:47.167+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:15:47.172+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:15:47.172+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:15:47.215+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:15:47.209+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:15:47.217+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:15:47.337+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.185 seconds
+[2026-04-26T19:16:17.681+0000] {processor.py:161} INFO - Started process (PID=27) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:16:17.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:16:17.690+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:16:17.689+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:16:17.724+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:16:17.718+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:16:17.732+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:16:17.813+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.157 seconds
+[2026-04-26T19:16:47.908+0000] {processor.py:161} INFO - Started process (PID=28) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:16:47.910+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:16:47.916+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:16:47.916+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:16:47.946+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:16:47.940+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:16:47.948+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:16:48.013+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.114 seconds
+[2026-04-26T19:17:18.125+0000] {processor.py:161} INFO - Started process (PID=29) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:17:18.127+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:17:18.133+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:17:18.132+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:17:18.158+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:17:18.154+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:17:18.160+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:17:18.196+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.079 seconds
+[2026-04-26T19:17:48.370+0000] {processor.py:161} INFO - Started process (PID=30) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:17:48.371+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:17:48.375+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:17:48.375+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:17:48.404+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:17:48.399+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:17:48.406+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:17:48.440+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.078 seconds
+[2026-04-26T19:18:18.662+0000] {processor.py:161} INFO - Started process (PID=31) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:18:18.664+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:18:18.667+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:18:18.666+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:18:18.698+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:18:18.692+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:18:18.701+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:18:18.736+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.081 seconds
+[2026-04-26T19:18:48.913+0000] {processor.py:161} INFO - Started process (PID=32) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:18:48.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:18:48.918+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:18:48.917+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:18:48.946+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:18:48.941+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:18:48.947+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:18:48.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.081 seconds
+[2026-04-26T19:19:19.228+0000] {processor.py:161} INFO - Started process (PID=33) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:19:19.230+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:19:19.234+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:19:19.234+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:19:19.265+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:19:19.261+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:19:19.266+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:19:19.302+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.082 seconds
+[2026-04-26T19:19:49.475+0000] {processor.py:161} INFO - Started process (PID=34) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:19:49.477+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:19:49.481+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:19:49.480+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:19:49.511+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:19:49.506+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:19:49.512+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:19:49.547+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.080 seconds
+[2026-04-26T19:20:19.860+0000] {processor.py:161} INFO - Started process (PID=35) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:20:19.864+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:20:19.868+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:20:19.867+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:20:19.896+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:20:19.891+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:20:19.898+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:20:19.939+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.087 seconds
+[2026-04-26T19:20:50.120+0000] {processor.py:161} INFO - Started process (PID=36) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:20:50.122+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:20:50.125+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:20:50.125+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:20:50.157+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:20:50.151+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:20:50.159+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:20:50.192+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.080 seconds
+[2026-04-26T19:21:20.425+0000] {processor.py:161} INFO - Started process (PID=37) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:21:20.427+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:21:20.429+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:21:20.429+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:21:20.459+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:21:20.454+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:21:20.462+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:21:20.498+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.080 seconds
+[2026-04-26T19:21:50.674+0000] {processor.py:161} INFO - Started process (PID=38) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:21:50.676+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:21:50.678+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:21:50.678+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:21:50.708+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:21:50.702+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:21:50.710+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:21:50.744+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.078 seconds
+[2026-04-26T19:22:21.007+0000] {processor.py:161} INFO - Started process (PID=39) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:22:21.009+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:22:21.013+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:22:21.012+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:22:21.065+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:22:21.055+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:22:21.068+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:22:21.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.109 seconds
+[2026-04-26T19:22:51.239+0000] {processor.py:161} INFO - Started process (PID=40) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:22:51.241+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:22:51.244+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:22:51.243+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:22:51.273+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:22:51.267+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:22:51.275+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:22:51.326+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.094 seconds
+[2026-04-26T19:23:21.577+0000] {processor.py:161} INFO - Started process (PID=41) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:23:21.578+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:23:21.581+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:23:21.580+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:23:21.612+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:23:21.606+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:23:21.613+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:23:21.655+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.086 seconds
+[2026-04-26T19:23:51.827+0000] {processor.py:161} INFO - Started process (PID=42) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:23:51.829+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:23:51.831+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:23:51.831+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:23:51.860+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:23:51.854+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:23:51.863+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:23:51.902+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.083 seconds
+[2026-04-26T19:24:22.130+0000] {processor.py:161} INFO - Started process (PID=43) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:24:22.132+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:24:22.135+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:24:22.135+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:24:22.164+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:24:22.160+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:24:22.166+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:24:22.200+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.077 seconds
+[2026-04-26T19:24:52.376+0000] {processor.py:161} INFO - Started process (PID=44) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:24:52.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:24:52.381+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:24:52.380+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:24:52.408+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:24:52.402+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:24:52.410+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:24:52.441+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.072 seconds
+[2026-04-26T19:25:22.773+0000] {processor.py:161} INFO - Started process (PID=45) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:25:22.775+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:25:22.778+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:25:22.777+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:25:22.805+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:25:22.800+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:25:22.807+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:25:22.848+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.084 seconds
+[2026-04-26T19:25:53.035+0000] {processor.py:161} INFO - Started process (PID=46) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:25:53.037+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:25:53.040+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:25:53.039+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:25:53.067+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:25:53.063+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:25:53.069+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:25:53.105+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.078 seconds
+[2026-04-26T19:26:23.332+0000] {processor.py:161} INFO - Started process (PID=47) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:26:23.334+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:26:23.337+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:26:23.336+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:26:23.370+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:26:23.365+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:26:23.372+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:26:23.408+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.087 seconds
+[2026-04-26T19:26:53.566+0000] {processor.py:161} INFO - Started process (PID=48) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:26:53.567+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:26:53.570+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:26:53.570+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:26:53.599+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:26:53.594+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:26:53.601+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:26:53.635+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.076 seconds
+[2026-04-26T19:27:23.879+0000] {processor.py:161} INFO - Started process (PID=49) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:27:23.880+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:27:23.883+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:27:23.882+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:27:23.911+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:27:23.906+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:27:23.912+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:27:23.945+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.073 seconds
+[2026-04-26T19:27:54.133+0000] {processor.py:161} INFO - Started process (PID=50) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:27:54.136+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:27:54.140+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:27:54.139+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:27:54.171+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:27:54.166+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:27:54.174+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:27:54.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.089 seconds
+[2026-04-26T19:28:24.408+0000] {processor.py:161} INFO - Started process (PID=51) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:28:24.410+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:28:24.413+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:28:24.412+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:28:24.437+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:28:24.433+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:28:24.439+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:28:24.472+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.072 seconds
+[2026-04-26T19:28:54.684+0000] {processor.py:161} INFO - Started process (PID=52) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:28:54.686+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:28:54.689+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:28:54.689+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:28:54.733+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:28:54.728+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:28:54.736+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:28:54.776+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.100 seconds
+[2026-04-26T19:29:24.943+0000] {processor.py:161} INFO - Started process (PID=53) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:29:24.945+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:29:24.948+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:29:24.948+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:29:24.977+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:29:24.973+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:29:24.979+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:29:25.012+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.077 seconds
+[2026-04-26T19:29:55.249+0000] {processor.py:161} INFO - Started process (PID=54) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:29:55.251+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:29:55.254+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:29:55.253+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:29:55.285+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:29:55.279+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:29:55.287+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:29:55.320+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.077 seconds
+[2026-04-26T19:30:25.525+0000] {processor.py:161} INFO - Started process (PID=55) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:30:25.526+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:30:25.530+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:30:25.529+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:30:25.555+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:30:25.551+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:30:25.557+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:30:25.591+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.074 seconds
+[2026-04-26T19:30:55.780+0000] {processor.py:161} INFO - Started process (PID=56) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:30:55.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:30:55.787+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:30:55.786+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:30:55.813+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:30:55.809+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:30:55.815+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:30:55.850+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.078 seconds
+[2026-04-26T19:31:26.069+0000] {processor.py:161} INFO - Started process (PID=57) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:31:26.070+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:31:26.074+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:31:26.074+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:31:26.105+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:31:26.100+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:31:26.411+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:31:26.445+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.384 seconds
+[2026-04-26T19:31:56.710+0000] {processor.py:161} INFO - Started process (PID=58) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:31:56.712+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:31:56.715+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:31:56.714+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:31:56.746+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:31:56.741+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:31:56.747+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:31:56.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.084 seconds
+[2026-04-26T19:32:26.936+0000] {processor.py:161} INFO - Started process (PID=59) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:32:26.939+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:32:26.943+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:32:26.942+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:32:26.970+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:32:26.965+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:32:26.972+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:32:27.005+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.076 seconds
+[2026-04-26T19:32:57.264+0000] {processor.py:161} INFO - Started process (PID=60) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:32:57.266+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:32:57.271+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:32:57.270+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:32:57.299+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:32:57.294+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:32:57.301+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:32:57.335+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.078 seconds
+[2026-04-26T19:33:27.506+0000] {processor.py:161} INFO - Started process (PID=61) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:33:27.508+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T19:33:27.511+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:33:27.511+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:33:27.542+0000] {logging_mixin.py:188} INFO - [2026-04-26T19:33:27.536+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T19:33:27.543+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T19:33:27.573+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.075 seconds
+[2026-04-26T22:33:54.890+0000] {processor.py:161} INFO - Started process (PID=62) to work on /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T22:33:54.903+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flights-pipeline.py for tasks to queue
+[2026-04-26T22:33:54.946+0000] {logging_mixin.py:188} INFO - [2026-04-26T22:33:54.940+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T22:33:55.063+0000] {logging_mixin.py:188} INFO - [2026-04-26T22:33:55.046+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flights-pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flights-pipeline.py", line 12, in <module>
+    from scripts.bronze_layer import run_bronze_ingestion
+ModuleNotFoundError: No module named 'scripts.bronze_layer'
+[2026-04-26T22:33:55.068+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flights-pipeline.py
+[2026-04-26T22:33:55.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flights-pipeline.py took 0.423 seconds

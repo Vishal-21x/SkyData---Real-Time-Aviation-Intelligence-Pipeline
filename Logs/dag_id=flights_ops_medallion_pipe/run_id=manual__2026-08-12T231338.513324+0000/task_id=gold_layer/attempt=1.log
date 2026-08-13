@@ -1,0 +1,18 @@
+[2026-08-12T23:13:56.744+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-08-12T23:13:56.781+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: flights_ops_medallion_pipe.gold_layer manual__2026-08-12T23:13:38.513324+00:00 [queued]>
+[2026-08-12T23:13:56.792+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: flights_ops_medallion_pipe.gold_layer manual__2026-08-12T23:13:38.513324+00:00 [queued]>
+[2026-08-12T23:13:56.792+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-08-12T23:13:56.818+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): gold_layer> on 2026-08-12 23:13:38.513324+00:00
+[2026-08-12T23:13:56.830+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', '***_ops_medallion_pipe', 'gold_layer', 'manual__2026-08-12T23:13:38.513324+00:00', '--job-id', '33', '--raw', '--subdir', 'DAGS_FOLDER/***-pipeline.py', '--cfg-path', '/tmp/tmpdggbmaz1']
+[2026-08-12T23:13:56.833+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=1177) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-08-12T23:13:56.833+0000] {standard_task_runner.py:91} INFO - Job 33: Subtask gold_layer
+[2026-08-12T23:13:56.834+0000] {standard_task_runner.py:64} INFO - Started process 1187 to run task
+[2026-08-12T23:13:56.949+0000] {task_command.py:426} INFO - Running <TaskInstance: flights_ops_medallion_pipe.gold_layer manual__2026-08-12T23:13:38.513324+00:00 [running]> on host e07d2bcd926c
+[2026-08-12T23:13:57.082+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='***_ops_medallion_pipe' AIRFLOW_CTX_TASK_ID='gold_layer' AIRFLOW_CTX_EXECUTION_DATE='2026-08-12T23:13:38.513324+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-08-12T23:13:38.513324+00:00'
+[2026-08-12T23:13:57.087+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-08-12T23:13:57.218+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-08-12T23:13:57.219+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-08-12T23:13:57.232+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=***_ops_medallion_pipe, task_id=gold_layer, run_id=manual__2026-08-12T23:13:38.513324+00:00, execution_date=20260812T231338, start_date=20260812T231356, end_date=20260812T231357
+[2026-08-12T23:13:57.293+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-08-12T23:13:57.320+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-08-12T23:13:57.325+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
